@@ -71,7 +71,7 @@
 // GadgetCheckBoxInput ========================================================
 /** Handle input for check box */
 //=============================================================================
-WindowMsgHandledType GadgetCheckBoxInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetCheckBoxInput( GameWindow *window, uintptr_t msg,
 													WindowMsgData mData1, WindowMsgData mData2 )
 {
 	WinInstanceData *instData = window->winGetInstanceData();
@@ -260,7 +260,7 @@ WindowMsgHandledType GadgetCheckBoxInput( GameWindow *window, UnsignedInt msg,
 // GadgetCheckBoxSystem =======================================================
 /** Handle system messages for check box */
 //=============================================================================
-WindowMsgHandledType GadgetCheckBoxSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetCheckBoxSystem( GameWindow *window, uintptr_t msg,
 													 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	WinInstanceData *instData = window->winGetInstanceData();

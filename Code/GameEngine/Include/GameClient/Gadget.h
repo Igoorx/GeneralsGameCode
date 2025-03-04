@@ -479,49 +479,49 @@ typedef struct _TabControlData
 // INLINING ///////////////////////////////////////////////////////////////////
 
 // EXTERNALS //////////////////////////////////////////////////////////////////
-extern WindowMsgHandledType GadgetPushButtonSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetPushButtonSystem( GameWindow *window, uintptr_t msg,
 																										WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetPushButtonInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetPushButtonInput( GameWindow *window, uintptr_t msg,
 																									 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetCheckBoxInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetCheckBoxInput( GameWindow *window, uintptr_t msg,
 																								 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetCheckBoxSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetCheckBoxSystem( GameWindow *window, uintptr_t msg,
 																									WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetRadioButtonInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetRadioButtonInput( GameWindow *window, uintptr_t msg,
 																										WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetRadioButtonSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetRadioButtonSystem( GameWindow *window, uintptr_t msg,
 																										 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetTabControlInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetTabControlInput( GameWindow *window, uintptr_t msg,
 																										WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetTabControlSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetTabControlSystem( GameWindow *window, uintptr_t msg,
 																										 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetListBoxInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetListBoxInput( GameWindow *window, uintptr_t msg,
 																								WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetListBoxMultiInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetListBoxMultiInput( GameWindow *window, uintptr_t msg,
 																										 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetListBoxSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetListBoxSystem( GameWindow *window, uintptr_t msg,
 																								 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetHorizontalSliderInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetHorizontalSliderInput( GameWindow *window, uintptr_t msg,
 																												 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetHorizontalSliderSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetHorizontalSliderSystem( GameWindow *window, uintptr_t msg,
 																													WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetVerticalSliderInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetVerticalSliderInput( GameWindow *window, uintptr_t msg,
 																											 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetVerticalSliderSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetVerticalSliderSystem( GameWindow *window, uintptr_t msg,
 																												WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetProgressBarSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetProgressBarSystem( GameWindow *window, uintptr_t msg,
 																										 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetStaticTextInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetStaticTextInput( GameWindow *window, uintptr_t msg,
 																									 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetStaticTextSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetStaticTextSystem( GameWindow *window, uintptr_t msg,
 																										WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetTextEntryInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetTextEntryInput( GameWindow *window, uintptr_t msg,
 																									WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetTextEntrySystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetTextEntrySystem( GameWindow *window, uintptr_t msg,
 																									 WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetComboBoxInput( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetComboBoxInput( GameWindow *window, uintptr_t msg,
 																								WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType GadgetComboBoxSystem( GameWindow *window, UnsignedInt msg,
+extern WindowMsgHandledType GadgetComboBoxSystem( GameWindow *window, uintptr_t msg,
 																								 WindowMsgData mData1, WindowMsgData mData2 );
 
 

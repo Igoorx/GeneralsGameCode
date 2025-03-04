@@ -85,7 +85,7 @@ void HideListBox(GameWindow * window);
 // GadgetComboBoxInput =========================================================
 /** Handle input for Combo box */
 //=============================================================================
-WindowMsgHandledType GadgetComboBoxInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetComboBoxInput( GameWindow *window, uintptr_t msg,
 												 WindowMsgData mData1, WindowMsgData mData2 )
 {
 //	ComboBoxData *combo = (ComboBoxData *)window->winGetUserData();
@@ -311,7 +311,7 @@ void HideListBox(GameWindow * window)
 // GadgetListBoxSystem ========================================================
 /** Handle system messages for list box */
 //=============================================================================
-WindowMsgHandledType GadgetComboBoxSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetComboBoxSystem( GameWindow *window, uintptr_t msg,
 													WindowMsgData mData1, WindowMsgData mData2 )
 {
 //	ListboxData *list = (ListboxData *)window->winGetUserData();

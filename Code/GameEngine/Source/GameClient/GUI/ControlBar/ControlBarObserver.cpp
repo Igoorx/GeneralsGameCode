@@ -130,7 +130,7 @@ void ControlBar::initObserverControls( void )
 //-------------------------------------------------------------------------------------------------
 /** System callback for the ControlBarObserverSystem */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ControlBarObserverSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType ControlBarObserverSystem( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	static NameKeyType buttonCommunicator = NAMEKEY_INVALID;

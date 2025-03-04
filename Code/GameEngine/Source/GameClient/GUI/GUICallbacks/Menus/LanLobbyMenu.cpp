@@ -575,7 +575,7 @@ void LanLobbyMenuUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** Lan Lobby menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType LanLobbyMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType LanLobbyMenuInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -624,7 +624,7 @@ WindowMsgHandledType LanLobbyMenuInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** Lan Lobby menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType LanLobbyMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType LanLobbyMenuSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;

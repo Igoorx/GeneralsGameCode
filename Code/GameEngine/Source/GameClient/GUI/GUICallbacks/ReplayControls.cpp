@@ -37,7 +37,7 @@
 //-------------------------------------------------------------------------------------------------
 /** Input procedure for the control bar */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ReplayControlInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType ReplayControlInput( GameWindow *window, uintptr_t msg,
 																			WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -48,7 +48,7 @@ WindowMsgHandledType ReplayControlInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** System callback for the control bar parent */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ReplayControlSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType ReplayControlSystem( GameWindow *window, uintptr_t msg, 
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 

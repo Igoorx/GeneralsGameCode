@@ -262,11 +262,11 @@ public:
 	virtual void addWindowToParentAtEnd( GameWindow *window, GameWindow *parent );
 
 	/// sends a system message to specified window
-	virtual WindowMsgHandledType winSendSystemMsg( GameWindow *window, UnsignedInt msg,
+	virtual WindowMsgHandledType winSendSystemMsg( GameWindow *window, uintptr_t msg,
 																 WindowMsgData mData1, WindowMsgData mData2 );
 
 	/// sends an input message to the specified window
-	virtual WindowMsgHandledType winSendInputMsg( GameWindow *window, UnsignedInt msg,
+	virtual WindowMsgHandledType winSendInputMsg( GameWindow *window, uintptr_t msg,
 																WindowMsgData mData1, WindowMsgData mData2 );
 
 	/** get the window pointer from id, starting at 'window' and searching
@@ -371,11 +371,11 @@ extern UnsignedInt WindowLayoutCurrentVersion;  ///< current version of our wind
 // frequently want to do this because we want windows grouped on child windows for
 // convenience, but only want one logical system procedure responding to them all
 extern WindowMsgHandledType PassSelectedButtonsToParentSystem( GameWindow *window, 
-																															 UnsignedInt msg,
+																															 uintptr_t msg,
 																															 WindowMsgData mData1, 
 																															 WindowMsgData mData2 );
 extern WindowMsgHandledType PassMessagesToParentSystem( GameWindow *window, 
-																															 UnsignedInt msg,
+																															 uintptr_t msg,
 																															 WindowMsgData mData1, 
 																															 WindowMsgData mData2 );
 

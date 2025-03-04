@@ -886,7 +886,7 @@ void WOLLoginMenuUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** WOL Login Menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLLoginMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType WOLLoginMenuInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -1004,7 +1004,7 @@ static Bool isAgeOkay(AsciiString &month, AsciiString &day, AsciiString year)
 //-------------------------------------------------------------------------------------------------
 /** WOL Login Menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLLoginMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType WOLLoginMenuSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;

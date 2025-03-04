@@ -135,7 +135,7 @@ void GameWindowManager::processDestroyList( void )
 //-------------------------------------------------------------------------------------------------
 /** Generic function to simply propagate only button press messages to parent and let it deal with it */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PassSelectedButtonsToParentSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType PassSelectedButtonsToParentSystem( GameWindow *window, uintptr_t msg,
 																												WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -159,7 +159,7 @@ WindowMsgHandledType PassSelectedButtonsToParentSystem( GameWindow *window, Unsi
 //-------------------------------------------------------------------------------------------------
 /** Generic function to simply propagate only button press messages to parent and let it deal with it */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PassMessagesToParentSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType PassMessagesToParentSystem( GameWindow *window, uintptr_t msg,
 																												WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -695,7 +695,7 @@ GameWindow *GameWindowManager::winGetWindowList( void )
 /** Send a system message to the specified window */
 //-------------------------------------------------------------------------------------------------
 WindowMsgHandledType GameWindowManager::winSendSystemMsg( GameWindow *window, 
-																					UnsignedInt msg,
+																					uintptr_t msg,
 																					WindowMsgData mData1, 
 																					WindowMsgData mData2 )
 {
@@ -714,7 +714,7 @@ WindowMsgHandledType GameWindowManager::winSendSystemMsg( GameWindow *window,
 /** Send a system message to the specified window */
 //-------------------------------------------------------------------------------------------------
 WindowMsgHandledType GameWindowManager::winSendInputMsg( GameWindow *window, 
-																				 UnsignedInt msg,
+																				 uintptr_t msg,
 																				 WindowMsgData mData1, 
 																				 WindowMsgData mData2 )
 {
@@ -3711,7 +3711,7 @@ GameWindow *GameWindowManager::getWindowUnderCursor( Int x, Int y, Bool ignoreEn
 
 //-------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------
-static WindowMsgHandledType testGrab( GameWindow *window, UnsignedInt msg,
+static WindowMsgHandledType testGrab( GameWindow *window, uintptr_t msg,
 											WindowMsgData mData1, WindowMsgData mData2 )
 {
 

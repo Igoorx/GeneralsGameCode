@@ -455,7 +455,7 @@ void ToggleQuitMenu()
 //-------------------------------------------------------------------------------------------------
 /** Quit menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType QuitMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType QuitMenuSystem( GameWindow *window, uintptr_t msg, 
 																		 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 

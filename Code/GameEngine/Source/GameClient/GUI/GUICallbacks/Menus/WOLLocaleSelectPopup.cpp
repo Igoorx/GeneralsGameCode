@@ -119,7 +119,7 @@ void WOLLocaleSelectUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** WOL Status Menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLLocaleSelectInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType WOLLocaleSelectInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -143,7 +143,7 @@ WindowMsgHandledType WOLLocaleSelectInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** WOL Status Menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLLocaleSelectSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType WOLLocaleSelectSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;

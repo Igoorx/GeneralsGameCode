@@ -72,7 +72,7 @@
 // GadgetStaticTextInput ======================================================
 /** Handle input for text field */
 //=============================================================================
-WindowMsgHandledType GadgetStaticTextInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetStaticTextInput( GameWindow *window, uintptr_t msg,
 											      WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -115,7 +115,7 @@ WindowMsgHandledType GadgetStaticTextInput( GameWindow *window, UnsignedInt msg,
 // GadgetStaticTextSystem =====================================================
 /** Handle system messages for text field */
 //=============================================================================
-WindowMsgHandledType GadgetStaticTextSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetStaticTextSystem( GameWindow *window, uintptr_t msg,
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 //	WinInstanceData *instData = window->winGetInstanceData();

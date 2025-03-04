@@ -61,7 +61,7 @@ WindowLayout *popupCommunicatorLayout = NULL;
 //-------------------------------------------------------------------------------------------------
 /** Input procedure for the left HUD */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType LeftHUDInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType LeftHUDInput( GameWindow *window, uintptr_t msg,
 																	 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	
@@ -339,7 +339,7 @@ WindowMsgHandledType LeftHUDInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** Input procedure for the control bar */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ControlBarInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType ControlBarInput( GameWindow *window, uintptr_t msg,
 																			WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -350,7 +350,7 @@ void ToggleQuitMenu(void);
 //-------------------------------------------------------------------------------------------------
 /** System callback for the control bar parent */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ControlBarSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType ControlBarSystem( GameWindow *window, uintptr_t msg, 
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	static NameKeyType buttonCommunicator = NAMEKEY_INVALID;

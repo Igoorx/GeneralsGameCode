@@ -305,7 +305,7 @@ void SaveLoadMenuUpdate( WindowLayout *layout, void *userData )
 
 // ------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------
-WindowMsgHandledType SaveLoadMenuInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType SaveLoadMenuInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
 	{
@@ -505,7 +505,7 @@ static void processLoadButtonPress(GameWindow *window)
 //-------------------------------------------------------------------------------------------------
 /** SaveLoad menu system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType SaveLoadMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType SaveLoadMenuSystem( GameWindow *window, uintptr_t msg, 
 																				 WindowMsgData mData1, WindowMsgData mData2 )
 {
 

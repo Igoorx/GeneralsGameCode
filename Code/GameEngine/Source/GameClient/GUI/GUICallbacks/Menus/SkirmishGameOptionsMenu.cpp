@@ -1375,7 +1375,7 @@ void SkirmishGameOptionsMenuUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** Skirmish Game Options menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType SkirmishGameOptionsMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType SkirmishGameOptionsMenuInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -1409,13 +1409,13 @@ WindowMsgHandledType SkirmishGameOptionsMenuInput( GameWindow *window, UnsignedI
 		break;
 	}  // end switch( msg )
 	return MSG_IGNORED;
-}//WindowMsgHandledType SkirmishGameOptionsMenuInput( GameWindow *window, UnsignedInt msg,
+}//WindowMsgHandledType SkirmishGameOptionsMenuInput( GameWindow *window, uintptr_t msg,
 
 
 //-------------------------------------------------------------------------------------------------
 /** Skirmish Game Options menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType SkirmishGameOptionsMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType SkirmishGameOptionsMenuSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;

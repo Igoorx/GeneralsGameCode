@@ -76,7 +76,7 @@
 // GadgetHorizontalSliderInput ================================================
 /** Handle input for horizontal slider */
 //=============================================================================
-WindowMsgHandledType GadgetHorizontalSliderInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetHorizontalSliderInput( GameWindow *window, uintptr_t msg,
 																	WindowMsgData mData1, WindowMsgData mData2 )
 {
 	SliderData *s = (SliderData *)window->winGetUserData();
@@ -295,7 +295,7 @@ WindowMsgHandledType GadgetHorizontalSliderInput( GameWindow *window, UnsignedIn
 // GadgetHorizontalSliderSystem ===============================================
 /** Handle system messages for horizontal slider */
 //=============================================================================
-WindowMsgHandledType GadgetHorizontalSliderSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetHorizontalSliderSystem( GameWindow *window, uintptr_t msg,
 																	 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	SliderData *s = (SliderData *)window->winGetUserData();

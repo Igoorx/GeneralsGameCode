@@ -220,7 +220,7 @@ void WOLMapSelectMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Map select menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLMapSelectMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType WOLMapSelectMenuInput( GameWindow *window, uintptr_t msg,
 																				 WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -274,7 +274,7 @@ void WOLPositionStartSpots( void );
 //-------------------------------------------------------------------------------------------------
 /** MapSelect menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLMapSelectMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType WOLMapSelectMenuSystem( GameWindow *window, uintptr_t msg, 
 																				  WindowMsgData mData1, WindowMsgData mData2 )
 {
 

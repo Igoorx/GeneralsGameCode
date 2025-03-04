@@ -973,7 +973,7 @@ void LanGameOptionsMenuUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** Lan Game Options menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType LanGameOptionsMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType LanGameOptionsMenuInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -1008,13 +1008,13 @@ WindowMsgHandledType LanGameOptionsMenuInput( GameWindow *window, UnsignedInt ms
 		}  // end char
 	}  // end switch( msg )
 	return MSG_IGNORED;
-}//WindowMsgHandledType LanGameOptionsMenuInput( GameWindow *window, UnsignedInt msg,
+}//WindowMsgHandledType LanGameOptionsMenuInput( GameWindow *window, uintptr_t msg,
 
 
 //-------------------------------------------------------------------------------------------------
 /** Lan Game Options menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType LanGameOptionsMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType LanGameOptionsMenuSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;
@@ -1271,7 +1271,7 @@ WindowMsgHandledType LanGameOptionsMenuSystem( GameWindow *window, UnsignedInt m
 			return MSG_IGNORED;
 	}//Switch
 	return MSG_HANDLED;
-}//WindowMsgHandledType LanGameOptionsMenuSystem( GameWindow *window, UnsignedInt msg, 
+}//WindowMsgHandledType LanGameOptionsMenuSystem( GameWindow *window, uintptr_t msg, 
 
 //-------------------------------------------------------------------------------------------------
 /** Utility FUnction used as a bridge from other windows to this one */

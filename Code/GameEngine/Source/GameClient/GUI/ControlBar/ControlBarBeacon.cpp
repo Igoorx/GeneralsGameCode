@@ -92,7 +92,7 @@ void ControlBar::updateContextBeacon( void )
 
 //-------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType BeaconWindowInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType BeaconWindowInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	if (msg == GWM_CHAR && mData1 == KEY_ESC)

@@ -69,7 +69,7 @@
 #include "GameNetwork/IPEnumeration.h"
 
 // PRIVATE DATA ///////////////////////////////////////////////////////////////////////////////////
-WindowMsgHandledType KeyboardTextEntryInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType KeyboardTextEntryInput( GameWindow *window, uintptr_t msg,
 													 WindowMsgData mData1, WindowMsgData mData2 );
 
 static NameKeyType buttonBackID = NAMEKEY_INVALID;
@@ -473,7 +473,7 @@ void KeyboardOptionsMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Options menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType KeyboardOptionsMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType KeyboardOptionsMenuInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -526,7 +526,7 @@ WindowMsgHandledType KeyboardOptionsMenuInput( GameWindow *window, UnsignedInt m
 //-------------------------------------------------------------------------------------------------
 /** options menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType KeyboardOptionsMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType KeyboardOptionsMenuSystem( GameWindow *window, uintptr_t msg, 
 																				WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -702,7 +702,7 @@ WindowMsgHandledType KeyboardOptionsMenuSystem( GameWindow *window, UnsignedInt 
 // KeyboardTextEntryInput =======================================================
 /** Handle input for text entry field */
 //=============================================================================
-WindowMsgHandledType KeyboardTextEntryInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType KeyboardTextEntryInput( GameWindow *window, uintptr_t msg,
 													 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	EntryData *e = (EntryData *)window->winGetUserData();

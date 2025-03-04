@@ -94,7 +94,7 @@ static Int slotNumInRow[MAX_SLOTS];
 static WindowLayout *theLayout = NULL;
 static GameWindow *theWindow = NULL;
 static AnimateWindowManager *theAnimateWindowManager = NULL;
-WindowMsgHandledType BuddyControlSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType BuddyControlSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2);
 void InitBuddyControls(Int type);
 void updateBuddyInfo( void );
@@ -344,7 +344,7 @@ void ToggleDiplomacy( Bool immediate )
 
 //-------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType DiplomacyInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType DiplomacyInput( GameWindow *window, uintptr_t msg,
 																			WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -381,7 +381,7 @@ WindowMsgHandledType DiplomacyInput( GameWindow *window, UnsignedInt msg,
 }  // end DiplomacyInput
 
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType DiplomacySystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType DiplomacySystem( GameWindow *window, uintptr_t msg, 
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	if(BuddyControlSystem(window, msg, mData1, mData2) == MSG_HANDLED)

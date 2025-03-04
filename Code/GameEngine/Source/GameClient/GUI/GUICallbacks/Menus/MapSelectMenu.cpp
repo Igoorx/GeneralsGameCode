@@ -254,7 +254,7 @@ void MapSelectMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Map select menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType MapSelectMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType MapSelectMenuInput( GameWindow *window, uintptr_t msg,
 																				 WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -309,7 +309,7 @@ WindowMsgHandledType MapSelectMenuInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** MapSelect menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType MapSelectMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType MapSelectMenuSystem( GameWindow *window, uintptr_t msg, 
 																				  WindowMsgData mData1, WindowMsgData mData2 )
 {
 	static NameKeyType buttonBack = NAMEKEY_INVALID;

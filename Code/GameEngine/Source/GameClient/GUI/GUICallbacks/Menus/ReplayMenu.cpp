@@ -370,7 +370,7 @@ void ReplayMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Replay menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ReplayMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType ReplayMenuInput( GameWindow *window, uintptr_t msg,
 																						WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -444,7 +444,7 @@ void reallyLoadReplay(void)
 //-------------------------------------------------------------------------------------------------
 /** single player menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ReplayMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType ReplayMenuSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	

@@ -268,7 +268,7 @@ void ToggleInGameChat( Bool immediate )
 
 //-------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType InGameChatInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType InGameChatInput( GameWindow *window, uintptr_t msg,
 																			WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -306,7 +306,7 @@ WindowMsgHandledType InGameChatInput( GameWindow *window, UnsignedInt msg,
 
 //-------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType InGameChatSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType InGameChatSystem( GameWindow *window, uintptr_t msg, 
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 

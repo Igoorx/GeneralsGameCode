@@ -75,7 +75,7 @@ enum { WIN_COLOR_UNDEFINED = GAME_COLOR_UNDEFINED };
 
 // WindowMsgData --------------------------------------------------------------
 //-----------------------------------------------------------------------------
-typedef UnsignedInt WindowMsgData;
+typedef uintptr_t WindowMsgData;
 
 //-----------------------------------------------------------------------------
 enum WindowMsgHandledType { MSG_IGNORED, MSG_HANDLED };
@@ -88,11 +88,11 @@ typedef void (*GameWinTooltipFunc)( GameWindow *,
 																		WinInstanceData *, 
 																		UnsignedInt );
 typedef WindowMsgHandledType (*GameWinInputFunc)( GameWindow *, 
-																	UnsignedInt, 
+																	uintptr_t, 
 																	WindowMsgData, 
 																	WindowMsgData );
 typedef WindowMsgHandledType (*GameWinSystemFunc)( GameWindow *, 
-																	 UnsignedInt, 
+																	 uintptr_t, 
 																	 WindowMsgData, 
 																	 WindowMsgData );
 	 
@@ -465,15 +465,15 @@ enum
 extern void GameWinDefaultDraw( GameWindow *window, 
 																WinInstanceData *instData );
 extern WindowMsgHandledType GameWinDefaultSystem( GameWindow *window, 
-																	UnsignedInt msg, 
+																	uintptr_t msg, 
 																  WindowMsgData mData1, 
 																	WindowMsgData mData2 );
 extern WindowMsgHandledType GameWinDefaultInput( GameWindow *window, 
-																 UnsignedInt msg,
+																 uintptr_t msg,
 																 WindowMsgData mData1, 
 																 WindowMsgData mData2 );
 extern WindowMsgHandledType GameWinBlockInput( GameWindow *window, 
-																 UnsignedInt msg,
+																 uintptr_t msg,
 																 WindowMsgData mData1, 
 																 WindowMsgData mData2 );
 extern void GameWinDefaultTooltip( GameWindow *window, 

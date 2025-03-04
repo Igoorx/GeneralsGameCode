@@ -549,7 +549,7 @@ static Int addEntry( UnicodeString *string, Int color, Int row, Int column, Game
 // GadgetListBoxInput =========================================================
 /** Handle input for list box */
 //=============================================================================
-WindowMsgHandledType GadgetListBoxInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetListBoxInput( GameWindow *window, uintptr_t msg,
 												 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	ListboxData *list = (ListboxData *)window->winGetUserData();
@@ -986,7 +986,7 @@ WindowMsgHandledType GadgetListBoxInput( GameWindow *window, UnsignedInt msg,
 // GadgetListBoxMultiInput ====================================================
 /** Handle input for multiple selection list box */
 //=============================================================================
-WindowMsgHandledType GadgetListBoxMultiInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetListBoxMultiInput( GameWindow *window, uintptr_t msg,
 															WindowMsgData mData1, WindowMsgData mData2 )
 {
 	ListboxData *list = (ListboxData *)window->winGetUserData();
@@ -1264,7 +1264,7 @@ WindowMsgHandledType GadgetListBoxMultiInput( GameWindow *window, UnsignedInt ms
 // GadgetListBoxSystem ========================================================
 /** Handle system messages for list box */
 //=============================================================================
-WindowMsgHandledType GadgetListBoxSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetListBoxSystem( GameWindow *window, uintptr_t msg,
 													WindowMsgData mData1, WindowMsgData mData2 )
 {
 	ListboxData *list = (ListboxData *)window->winGetUserData();

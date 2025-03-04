@@ -93,7 +93,7 @@ void PopupcommunicatorUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Popup Communicator input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupCommunicatorInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType PopupCommunicatorInput( GameWindow *window, uintptr_t msg,
 																						WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -143,7 +143,7 @@ WindowMsgHandledType PopupCommunicatorInput( GameWindow *window, UnsignedInt msg
 //-------------------------------------------------------------------------------------------------
 /** Popup Communicator window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupCommunicatorSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType PopupCommunicatorSystem( GameWindow *window, uintptr_t msg, 
 																		 WindowMsgData mData1, WindowMsgData mData2 )
 {
 

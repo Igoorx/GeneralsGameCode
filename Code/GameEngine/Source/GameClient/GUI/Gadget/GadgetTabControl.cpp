@@ -71,7 +71,7 @@
 // GadgetTabControlInput =====================================================
 /** Handle input for TabControl */
 //=============================================================================
-WindowMsgHandledType GadgetTabControlInput( GameWindow *tabControl, UnsignedInt msg,
+WindowMsgHandledType GadgetTabControlInput( GameWindow *tabControl, uintptr_t msg,
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 //	WinInstanceData *instData = tabControl->winGetInstanceData();
@@ -129,7 +129,7 @@ WindowMsgHandledType GadgetTabControlInput( GameWindow *tabControl, UnsignedInt 
 // GadgetTabControlSystem ====================================================
 /** Handle system messages for TabControl */
 //=============================================================================
-WindowMsgHandledType GadgetTabControlSystem( GameWindow *tabControl, UnsignedInt msg,
+WindowMsgHandledType GadgetTabControlSystem( GameWindow *tabControl, uintptr_t msg,
 															WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 

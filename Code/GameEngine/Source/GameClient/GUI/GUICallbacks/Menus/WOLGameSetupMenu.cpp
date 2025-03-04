@@ -2250,7 +2250,7 @@ void WOLGameSetupMenuUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** Lan Game Options menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLGameSetupMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType WOLGameSetupMenuInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	/*
@@ -2299,7 +2299,7 @@ WindowMsgHandledType WOLGameSetupMenuInput( GameWindow *window, UnsignedInt msg,
 	}  // end switch( msg )
 	*/
 	return MSG_IGNORED;
-}//WindowMsgHandledType WOLGameSetupMenuInput( GameWindow *window, UnsignedInt msg,
+}//WindowMsgHandledType WOLGameSetupMenuInput( GameWindow *window, uintptr_t msg,
 
 
 // Slash commands -------------------------------------------------------------------------
@@ -2391,7 +2391,7 @@ static Int getFirstSelectablePlayer(const GameInfo *game)
 //-------------------------------------------------------------------------------------------------
 /** WOL Game Options menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLGameSetupMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType WOLGameSetupMenuSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;
@@ -2684,6 +2684,6 @@ WindowMsgHandledType WOLGameSetupMenuSystem( GameWindow *window, UnsignedInt msg
 			return MSG_IGNORED;
 	}//Switch
 	return MSG_HANDLED;
-}//WindowMsgHandledType WOLGameSetupMenuSystem( GameWindow *window, UnsignedInt msg, 
+}//WindowMsgHandledType WOLGameSetupMenuSystem( GameWindow *window, uintptr_t msg, 
 
 

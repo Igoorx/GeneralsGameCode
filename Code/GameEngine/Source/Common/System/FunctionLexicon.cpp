@@ -38,27 +38,27 @@
 
 // Popup Ladder Select --------------------------------------------------------------------------
 extern void PopupLadderSelectInit( WindowLayout *layout, void *userData );
-extern WindowMsgHandledType PopupLadderSelectSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType PopupLadderSelectInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 );
+extern WindowMsgHandledType PopupLadderSelectSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 );
+extern WindowMsgHandledType PopupLadderSelectInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 );
 
-extern WindowMsgHandledType PopupBuddyNotificationSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 );
+extern WindowMsgHandledType PopupBuddyNotificationSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 );
 
 // WOL Buddy Overlay Right Click menu callbacks --------------------------------------------------------------
 extern void RCGameDetailsMenuInit( WindowLayout *layout, void *userData );
-extern WindowMsgHandledType RCGameDetailsMenuSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 );
+extern WindowMsgHandledType RCGameDetailsMenuSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 );
 
 // Beacon control bar callback --------------------------------------------------------------
-extern WindowMsgHandledType BeaconWindowInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 );
+extern WindowMsgHandledType BeaconWindowInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 );
 
 // Popup Replay Save Menu ----------------------------------------------------------------------------------
 extern void PopupReplayInit( WindowLayout *layout, void *userData );
 extern void PopupReplayUpdate( WindowLayout *layout, void *userData );
 extern void PopupReplayShutdown( WindowLayout *layout, void *userData );
-extern WindowMsgHandledType PopupReplaySystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 );
-extern WindowMsgHandledType PopupReplayInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 );
+extern WindowMsgHandledType PopupReplaySystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 );
+extern WindowMsgHandledType PopupReplayInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 );
 
 // Extended MessageBox ----------------------------------------------------------------------------------
-extern WindowMsgHandledType ExtendedMessageBoxSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 );
+extern WindowMsgHandledType ExtendedMessageBoxSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 );
 
 // game window draw table -----------------------------------------------------------------------
 static FunctionLexicon::TableEntry gameWinDrawTable[] = 

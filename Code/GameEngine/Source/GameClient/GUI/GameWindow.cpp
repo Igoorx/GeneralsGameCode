@@ -1482,7 +1482,7 @@ GameWindow *GameWindow::winPointInAnyChild( Int x, Int y, Bool ignoreHidden, Boo
 // GameWinDefaultInput ========================================================
 /** The default input callback.  Currently does nothing. */
 //=============================================================================
-WindowMsgHandledType GameWinDefaultInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GameWinDefaultInput( GameWindow *window, uintptr_t msg,
 													WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -1491,7 +1491,7 @@ WindowMsgHandledType GameWinDefaultInput( GameWindow *window, UnsignedInt msg,
 }  // end GameWinDefaultInput
 
 ///< Input that blocks all (mouse) input like a wall, instead of passing like it wasn't there
-WindowMsgHandledType GameWinBlockInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GameWinBlockInput( GameWindow *window, uintptr_t msg,
 													WindowMsgData mData1, WindowMsgData mData2 )
 {
 	if (msg == GWM_CHAR || msg == GWM_MOUSE_POS)
@@ -1519,7 +1519,7 @@ WindowMsgHandledType GameWinBlockInput( GameWindow *window, UnsignedInt msg,
 // GameWinDefaultSystem =======================================================
 /** The default system callback.  Currently does nothing. */
 //=============================================================================
-WindowMsgHandledType GameWinDefaultSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType GameWinDefaultSystem( GameWindow *window, uintptr_t msg, 
 													 WindowMsgData mData1, WindowMsgData mData2 )
 {
 

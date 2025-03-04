@@ -193,7 +193,7 @@ void PopupReplayUpdate( WindowLayout *layout, void *userData )
 
 // ------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupReplayInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType PopupReplayInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
 	{
@@ -340,7 +340,7 @@ void reallySaveReplay(void)
 //-------------------------------------------------------------------------------------------------
 /** SaveLoad menu system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupReplaySystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType PopupReplaySystem( GameWindow *window, uintptr_t msg, 
 																				 WindowMsgData mData1, WindowMsgData mData2 )
 {
 

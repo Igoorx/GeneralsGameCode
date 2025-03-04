@@ -111,7 +111,7 @@ void PopupJoinGameInit( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** PopupHostGameInput callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupJoinGameInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType PopupJoinGameInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
 	{
@@ -160,7 +160,7 @@ WindowMsgHandledType PopupJoinGameInput( GameWindow *window, UnsignedInt msg, Wi
 //-------------------------------------------------------------------------------------------------
 /** PopupHostGameSystem callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupJoinGameSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType PopupJoinGameSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
   switch( msg ) 
 	{

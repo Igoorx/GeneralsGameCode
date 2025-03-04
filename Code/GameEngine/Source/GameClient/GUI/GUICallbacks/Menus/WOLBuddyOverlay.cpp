@@ -198,7 +198,7 @@ void InitBuddyControls(Int type)
 	
 }
 
-WindowMsgHandledType BuddyControlSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType BuddyControlSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2)
 {
 	if(!TheGameSpyInfo || TheGameSpyInfo->getLocalProfileID() == 0 || !buddyControls.isInit)
@@ -801,7 +801,7 @@ void WOLBuddyOverlayUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** WOL Buddy Overlay input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLBuddyOverlayInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType WOLBuddyOverlayInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -848,7 +848,7 @@ WindowMsgHandledType WOLBuddyOverlayInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** WOL Buddy Overlay window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLBuddyOverlaySystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType WOLBuddyOverlaySystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;
@@ -1104,7 +1104,7 @@ WindowMsgHandledType WOLBuddyOverlaySystem( GameWindow *window, UnsignedInt msg,
 	return MSG_HANDLED;
 }// WOLBuddyOverlaySystem
 
-WindowMsgHandledType PopupBuddyNotificationSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType PopupBuddyNotificationSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg )
@@ -1235,7 +1235,7 @@ void RequestBuddyAdd(Int profileID, AsciiString nick)
 	showNotificationBox(AsciiString::TheEmptyString, s);
 }
 
-WindowMsgHandledType WOLBuddyOverlayRCMenuSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType WOLBuddyOverlayRCMenuSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 
 	switch( msg )

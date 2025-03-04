@@ -69,7 +69,7 @@
 // GadgetProgressBarSystem ====================================================
 /** Handle system messages for Progress Bar */
 //=============================================================================
-WindowMsgHandledType GadgetProgressBarSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetProgressBarSystem( GameWindow *window, uintptr_t msg,
 									            WindowMsgData mData1, WindowMsgData mData2 )
 {
 

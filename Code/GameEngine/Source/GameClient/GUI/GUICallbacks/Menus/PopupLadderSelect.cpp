@@ -267,7 +267,7 @@ void PopupLadderSelectInit( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupLadderSelectInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType PopupLadderSelectInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
 	{
@@ -338,7 +338,7 @@ void ladderSelectedCallback(void)
 //-------------------------------------------------------------------------------------------------
 /** System callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupLadderSelectSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType PopupLadderSelectSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
   switch( msg ) 
 	{
@@ -604,7 +604,7 @@ void RCGameDetailsMenuInit( WindowLayout *layout, void *userData )
 {
 }
 
-WindowMsgHandledType RCGameDetailsMenuSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType RCGameDetailsMenuSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 
 	static NameKeyType ladderInfoID = NAMEKEY_INVALID;

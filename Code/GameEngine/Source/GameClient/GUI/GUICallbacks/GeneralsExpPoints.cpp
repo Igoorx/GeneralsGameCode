@@ -63,7 +63,7 @@
 //-----------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType GeneralsExpPointsInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GeneralsExpPointsInput( GameWindow *window, uintptr_t msg,
 																			WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -112,7 +112,7 @@ WindowMsgHandledType GeneralsExpPointsInput( GameWindow *window, UnsignedInt msg
 //-----------------------------------------------------------------------------
 // PUBLIC FUNCTIONS ///////////////////////////////////////////////////////////
 //-----------------------------------------------------------------------------
-WindowMsgHandledType GeneralsExpPointsSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType GeneralsExpPointsSystem( GameWindow *window, uintptr_t msg, 
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 

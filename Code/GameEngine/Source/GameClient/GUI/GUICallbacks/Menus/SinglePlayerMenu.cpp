@@ -127,7 +127,7 @@ void SinglePlayerMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** SinglePlayer menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType SinglePlayerMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType SinglePlayerMenuInput( GameWindow *window, uintptr_t msg,
 																						WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -182,7 +182,7 @@ WindowMsgHandledType SinglePlayerMenuInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** single player menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType SinglePlayerMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType SinglePlayerMenuSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	static NameKeyType buttonNew = NAMEKEY_INVALID;

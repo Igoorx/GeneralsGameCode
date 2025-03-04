@@ -169,13 +169,13 @@ void HideEstablishConnectionsWindow( void ) {
 	}
 }
 
-WindowMsgHandledType EstablishConnectionsControlInput(GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType EstablishConnectionsControlInput(GameWindow *window, uintptr_t msg,
 																											WindowMsgData mData1, WindowMsgData mData2) {
 
 	return MSG_IGNORED;
 }
 
-WindowMsgHandledType EstablishConnectionsControlSystem(GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType EstablishConnectionsControlSystem(GameWindow *window, uintptr_t msg,
 																											 WindowMsgData mData1, WindowMsgData mData2) {
 
 	switch (msg) {

@@ -5459,7 +5459,7 @@ Bool InGameUI::areTooltipsDisabled() const
 }
 
 
-WindowMsgHandledType IdleWorkerSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType IdleWorkerSystem( GameWindow *window, uintptr_t msg, 
 																				WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 

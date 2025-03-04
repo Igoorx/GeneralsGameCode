@@ -366,7 +366,7 @@ void PopupHostGameInit( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** PopupHostGameInput callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupHostGameInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType PopupHostGameInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
 	{
@@ -415,7 +415,7 @@ WindowMsgHandledType PopupHostGameInput( GameWindow *window, UnsignedInt msg, Wi
 //-------------------------------------------------------------------------------------------------
 /** PopupHostGameSystem callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType PopupHostGameSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType PopupHostGameSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
   switch( msg ) 
 	{

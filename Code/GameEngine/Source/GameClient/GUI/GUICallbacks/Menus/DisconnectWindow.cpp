@@ -190,7 +190,7 @@ void HideDisconnectWindow( void )
 //-------------------------------------------------------------------------------------------------
 /** Input callback for the control bar parent */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType DisconnectControlInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType DisconnectControlInput( GameWindow *window, uintptr_t msg,
 																						WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -201,7 +201,7 @@ WindowMsgHandledType DisconnectControlInput( GameWindow *window, UnsignedInt msg
 //-------------------------------------------------------------------------------------------------
 /** System callback for the control bar parent */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType DisconnectControlSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType DisconnectControlSystem( GameWindow *window, uintptr_t msg, 
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 

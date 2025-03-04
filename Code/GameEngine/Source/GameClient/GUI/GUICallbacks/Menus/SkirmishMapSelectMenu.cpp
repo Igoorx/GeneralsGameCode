@@ -339,7 +339,7 @@ void SkirmishMapSelectMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Map select menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType SkirmishMapSelectMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType SkirmishMapSelectMenuInput( GameWindow *window, uintptr_t msg,
 																				 WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -392,7 +392,7 @@ WindowMsgHandledType SkirmishMapSelectMenuInput( GameWindow *window, UnsignedInt
 //-------------------------------------------------------------------------------------------------
 /** MapSelect menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType SkirmishMapSelectMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType SkirmishMapSelectMenuSystem( GameWindow *window, uintptr_t msg, 
 																				  WindowMsgData mData1, WindowMsgData mData2 )
 {
 	

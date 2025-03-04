@@ -1278,7 +1278,7 @@ void GameSpyPlayerInfoOverlayUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** Overlay input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType GameSpyPlayerInfoOverlayInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GameSpyPlayerInfoOverlayInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -1325,7 +1325,7 @@ void messageBoxYes( void );
 //-------------------------------------------------------------------------------------------------
 /** Overlay window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType GameSpyPlayerInfoOverlaySystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType GameSpyPlayerInfoOverlaySystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;

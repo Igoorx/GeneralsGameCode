@@ -137,7 +137,7 @@ void InGamePopupMessageInit( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** InGamePopupMessageInput callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType InGamePopupMessageInput( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType InGamePopupMessageInput( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 
 		switch( msg ) 
@@ -188,7 +188,7 @@ WindowMsgHandledType InGamePopupMessageInput( GameWindow *window, UnsignedInt ms
 //-------------------------------------------------------------------------------------------------
 /** InGamePopupMessageSystem callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType InGamePopupMessageSystem( GameWindow *window, UnsignedInt msg, WindowMsgData mData1, WindowMsgData mData2 )
+WindowMsgHandledType InGamePopupMessageSystem( GameWindow *window, uintptr_t msg, WindowMsgData mData1, WindowMsgData mData2 )
 {
 
   switch( msg ) 

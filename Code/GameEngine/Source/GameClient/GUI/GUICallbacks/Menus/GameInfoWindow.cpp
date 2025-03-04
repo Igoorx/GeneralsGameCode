@@ -245,7 +245,7 @@ void GameInfoWindowInit( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** GameInfo window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType GameInfoWindowSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType GameInfoWindowSystem( GameWindow *window, uintptr_t msg, 
 																				  WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 

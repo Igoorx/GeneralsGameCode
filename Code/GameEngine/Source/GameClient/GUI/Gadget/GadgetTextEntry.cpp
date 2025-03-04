@@ -83,7 +83,7 @@ static GameWindow *curWindow = NULL;  /**< so we can keep track of the input
 // GadgetTextEntryInput =======================================================
 /** Handle input for text entry field */
 //=============================================================================
-WindowMsgHandledType GadgetTextEntryInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetTextEntryInput( GameWindow *window, uintptr_t msg,
 													 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	EntryData *e = (EntryData *)window->winGetUserData();
@@ -317,7 +317,7 @@ WindowMsgHandledType GadgetTextEntryInput( GameWindow *window, UnsignedInt msg,
 // GadgetTextEntrySystem ======================================================
 /** Handle system messages for entry field */
 //=============================================================================
-WindowMsgHandledType GadgetTextEntrySystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetTextEntrySystem( GameWindow *window, uintptr_t msg,
 														WindowMsgData mData1, WindowMsgData mData2 )
 {
 	EntryData *e = (EntryData *)window->winGetUserData();

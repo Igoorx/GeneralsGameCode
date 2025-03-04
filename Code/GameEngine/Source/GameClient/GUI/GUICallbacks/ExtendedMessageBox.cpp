@@ -43,7 +43,7 @@
 #include "GameClient/GameWindowManager.h"
 #include "GameClient/ExtendedMessageBox.h"
 
-WindowMsgHandledType ExtendedMessageBoxSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType ExtendedMessageBoxSystem( GameWindow *window, uintptr_t msg, 
 										 WindowMsgData mData1, WindowMsgData mData2 );
 
 //-------------------------------------------------------------------------------------------------
@@ -227,7 +227,7 @@ GameWindow *ExMessageBoxCancel			(UnicodeString titleString,UnicodeString bodySt
 //-------------------------------------------------------------------------------------------------
 /** Message Box window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ExtendedMessageBoxSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType ExtendedMessageBoxSystem( GameWindow *window, uintptr_t msg, 
 										 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	

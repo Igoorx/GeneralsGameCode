@@ -369,7 +369,7 @@ void ScoreScreenUpdate( WindowLayout * layout, void *userData)
 
 /** Input function for the ScoreScreen */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ScoreScreenInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType ScoreScreenInput( GameWindow *window, uintptr_t msg,
 																		WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -418,7 +418,7 @@ WindowMsgHandledType ScoreScreenInput( GameWindow *window, UnsignedInt msg,
 
 /** System Function for the ScoreScreen */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType ScoreScreenSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType ScoreScreenSystem( GameWindow *window, uintptr_t msg, 
 																				  WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;

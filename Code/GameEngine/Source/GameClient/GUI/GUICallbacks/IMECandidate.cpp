@@ -45,7 +45,7 @@ static DisplayString *Dstring = NULL;
 //-------------------------------------------------------------------------------------------------
 /** Input procedure for the candidate window */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType IMECandidateWindowInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType IMECandidateWindowInput( GameWindow *window, uintptr_t msg,
 																			WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -56,7 +56,7 @@ WindowMsgHandledType IMECandidateWindowInput( GameWindow *window, UnsignedInt ms
 //-------------------------------------------------------------------------------------------------
 /** System callback for the IME Candidate widnow */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType IMECandidateWindowSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType IMECandidateWindowSystem( GameWindow *window, uintptr_t msg, 
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 

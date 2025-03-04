@@ -1311,7 +1311,7 @@ void WOLLobbyMenuUpdate( WindowLayout * layout, void *userData)
 //-------------------------------------------------------------------------------------------------
 /** WOL Lobby Menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLLobbyMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType WOLLobbyMenuInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	switch( msg ) 
@@ -1409,7 +1409,7 @@ WindowMsgHandledType WOLLobbyMenuInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** WOL Lobby Menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLLobbyMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType WOLLobbyMenuSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	UnicodeString txtInput;

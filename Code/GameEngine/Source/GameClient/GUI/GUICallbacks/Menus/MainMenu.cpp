@@ -968,7 +968,7 @@ void MainMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Main menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType MainMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType MainMenuInput( GameWindow *window, uintptr_t msg,
 																		WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -1032,7 +1032,7 @@ void PrintOffsetsFromControlBarParent( void );
 //-------------------------------------------------------------------------------------------------
 /** Main menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType MainMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType MainMenuSystem( GameWindow *window, uintptr_t msg, 
 										 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	static Bool triedToInitWOLAPI = FALSE;

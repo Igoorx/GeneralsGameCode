@@ -203,7 +203,7 @@ void LanMapSelectMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Map select menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType LanMapSelectMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType LanMapSelectMenuInput( GameWindow *window, uintptr_t msg,
 																				 WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -256,7 +256,7 @@ WindowMsgHandledType LanMapSelectMenuInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** MapSelect menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType LanMapSelectMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType LanMapSelectMenuSystem( GameWindow *window, uintptr_t msg, 
 																				  WindowMsgData mData1, WindowMsgData mData2 )
 {
 	GameWindow *mapWindow = NULL;

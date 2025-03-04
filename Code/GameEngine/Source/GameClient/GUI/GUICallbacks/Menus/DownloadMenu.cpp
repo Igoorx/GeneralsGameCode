@@ -324,7 +324,7 @@ void DownloadMenuUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType DownloadMenuInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType DownloadMenuInput( GameWindow *window, uintptr_t msg,
 																			 WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -377,7 +377,7 @@ WindowMsgHandledType DownloadMenuInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType DownloadMenuSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType DownloadMenuSystem( GameWindow *window, uintptr_t msg, 
 																		 WindowMsgData mData1, WindowMsgData mData2 )
 {
 

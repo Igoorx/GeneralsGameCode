@@ -120,7 +120,7 @@ static void unselectOtherRadioOfGroup( Int group, Int screen,
 // GadgetRadioButtonInput =====================================================
 /** Handle input for radio button */
 //=============================================================================
-WindowMsgHandledType GadgetRadioButtonInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetRadioButtonInput( GameWindow *window, uintptr_t msg,
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	WinInstanceData *instData = window->winGetInstanceData();
@@ -312,7 +312,7 @@ WindowMsgHandledType GadgetRadioButtonInput( GameWindow *window, UnsignedInt msg
 // GadgetRadioButtonSystem ====================================================
 /** Handle system messages for radio button */
 //=============================================================================
-WindowMsgHandledType GadgetRadioButtonSystem( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType GadgetRadioButtonSystem( GameWindow *window, uintptr_t msg,
 															WindowMsgData mData1, WindowMsgData mData2 )
 {
 	WinInstanceData *instData = window->winGetInstanceData();

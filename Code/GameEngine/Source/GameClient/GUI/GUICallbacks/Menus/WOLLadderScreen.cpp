@@ -113,7 +113,7 @@ void WOLLadderScreenUpdate( WindowLayout *layout, void *userData )
 //-------------------------------------------------------------------------------------------------
 /** Replay menu input callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLLadderScreenInput( GameWindow *window, UnsignedInt msg,
+WindowMsgHandledType WOLLadderScreenInput( GameWindow *window, uintptr_t msg,
 																						WindowMsgData mData1, WindowMsgData mData2 )
 {
 
@@ -163,7 +163,7 @@ WindowMsgHandledType WOLLadderScreenInput( GameWindow *window, UnsignedInt msg,
 //-------------------------------------------------------------------------------------------------
 /** single player menu window system callback */
 //-------------------------------------------------------------------------------------------------
-WindowMsgHandledType WOLLadderScreenSystem( GameWindow *window, UnsignedInt msg, 
+WindowMsgHandledType WOLLadderScreenSystem( GameWindow *window, uintptr_t msg, 
 														 WindowMsgData mData1, WindowMsgData mData2 )
 {
 	
